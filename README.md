@@ -35,7 +35,7 @@
 
 # - Video & Images
 
-<img src="https://user-images.githubusercontent.com/88021794/200296047-a877330a-c4d7-4a32-a059-31d0a3975e9b.png" width="200" height="400"/><img src="https://user-images.githubusercontent.com/88021794/200296047-a877330a-c4d7-4a32-a059-31d0a3975e9b.png" width="200" height="400"/><img src="https://user-images.githubusercontent.com/88021794/200296014-ca34b483-ee7b-482a-b1b2-3f9898e0a169.png" width="200" height="400"/><img src="https://user-images.githubusercontent.com/88021794/200296033-94ef09dd-90eb-437a-bf07-0bd5dbca5dab.png" width="200" height="400"/><img src="https://user-images.githubusercontent.com/88021794/200296042-94338d4e-1b7d-430c-a2db-05ee78867261.png" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/88021794/200296047-a877330a-c4d7-4a32-a059-31d0a3975e9b.png" width="200" height="400"/><img src="https://user-images.githubusercontent.com/88021794/200296014-ca34b483-ee7b-482a-b1b2-3f9898e0a169.png" width="200" height="400"/><img src="https://user-images.githubusercontent.com/88021794/200296033-94ef09dd-90eb-437a-bf07-0bd5dbca5dab.png" width="200" height="400"/><img src="https://user-images.githubusercontent.com/88021794/200296042-94338d4e-1b7d-430c-a2db-05ee78867261.png" width="200" height="400"/>
 
 
 # - Appstore link
