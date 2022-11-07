@@ -44,4 +44,3 @@ https://apps.apple.com/kr/app/aitrainer/id6444027026
 # - Contact 
 
 📧 : abw2619@naver.com
-
