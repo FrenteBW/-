@@ -11,6 +11,49 @@
 		7AA8787A2909379700354465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878792909379700354465 /* ContentView.swift */; };
 		7AA8787C2909379900354465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA8787B2909379900354465 /* Assets.xcassets */; };
 		7AA8787F2909379900354465 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA8787E2909379900354465 /* Preview Assets.xcassets */; };
+		7AA878862909383200354465 /* PoseEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878852909383200354465 /* PoseEstimator.swift */; };
+		7AA878892909386800354465 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878882909386800354465 /* HomeView.swift */; };
+		7AA8788C290938A300354465 /* SquatDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA8788B290938A300354465 /* SquatDescriptionView.swift */; };
+		7AA8788E290938D500354465 /* DeadliftDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA8788D290938D500354465 /* DeadliftDescriptionView.swift */; };
+		7AA87890290938EE00354465 /* PullupDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA8788F290938EE00354465 /* PullupDescriptionView.swift */; };
+		7AA878922909390800354465 /* BarbellrowDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878912909390800354465 /* BarbellrowDescriptionView.swift */; };
+		7AA878942909392500354465 /* ShoulderpressDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878932909392500354465 /* ShoulderpressDescriptionView.swift */; };
+		7AA878962909394500354465 /* OverheadpressDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878952909394500354465 /* OverheadpressDescriptionView.swift */; };
+		7AA878982909395B00354465 /* LateralraiseDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878972909395B00354465 /* LateralraiseDescriptionView.swift */; };
+		7AA8789A2909397200354465 /* InclinepressDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878992909397200354465 /* InclinepressDescriptionView.swift */; };
+		7AA8789C2909398A00354465 /* DipsDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA8789B2909398A00354465 /* DipsDescriptionView.swift */; };
+		7AA8789E2909399C00354465 /* FreeDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA8789D2909399C00354465 /* FreeDescriptionView.swift */; };
+		7AA878A0290939AE00354465 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA8789F290939AE00354465 /* DescriptionView.swift */; };
+		7AA878A3290939E800354465 /* SquatStickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878A2290939E800354465 /* SquatStickFigureView.swift */; };
+		7AA878A529093A0200354465 /* DeadliftStickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878A429093A0200354465 /* DeadliftStickFigureView.swift */; };
+		7AA878A729093A1700354465 /* PullupStickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878A629093A1700354465 /* PullupStickFigureView.swift */; };
+		7AA878AA29093A4500354465 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878A929093A4500354465 /* CameraViewController.swift */; };
+		7AA878AC29093A6300354465 /* CameraViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878AB29093A6300354465 /* CameraViewWrapper.swift */; };
+		7AA878AE29093A7800354465 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878AD29093A7800354465 /* CameraView.swift */; };
+		7AA878B129093A9500354465 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878B029093A9500354465 /* Shapes.swift */; };
+		7AA878B629093ADB00354465 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878B529093ADB00354465 /* CircleButton.swift */; };
+		7AA878B829093AF000354465 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878B729093AF000354465 /* LargeButton.swift */; };
+		7AA878BD29093B1700354465 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878BC29093B1700354465 /* CircleBackground.swift */; };
+		7AA878BF29093B3100354465 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878BE29093B3100354465 /* ScrollSection.swift */; };
+		7AA878C129093BBB00354465 /* BarbellrowStickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878C029093BBB00354465 /* BarbellrowStickFigureView.swift */; };
+		7AA878C329093BD400354465 /* ShoulderpressStickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878C229093BD400354465 /* ShoulderpressStickFigureView.swift */; };
+		7AA878C529093BEA00354465 /* OverheadpressStickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878C429093BEA00354465 /* OverheadpressStickFigureView.swift */; };
+		7AA878C729093C1000354465 /* LateralraiseStickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878C629093C1000354465 /* LateralraiseStickFigureView.swift */; };
+		7AA878C929093C2900354465 /* InclinepressStickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878C829093C2900354465 /* InclinepressStickFigureView.swift */; };
+		7AA878CB29093C3D00354465 /* DipsStickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878CA29093C3D00354465 /* DipsStickFigureView.swift */; };
+		7AA878CD29093C5600354465 /* FreePostureStickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878CC29093C5600354465 /* FreePostureStickFigureView.swift */; };
+		7AA878CF29093C6B00354465 /* StickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878CE29093C6B00354465 /* StickFigureView.swift */; };
+		7AA878D229093CA200354465 /* SquatMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878D129093CA200354465 /* SquatMainView.swift */; };
+		7AA878D429093CB400354465 /* DeadliftMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878D329093CB400354465 /* DeadliftMainView.swift */; };
+		7AA878D629093CC700354465 /* PullupMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878D529093CC700354465 /* PullupMainView.swift */; };
+		7AA878D829093CDA00354465 /* BarbellrowMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878D729093CDA00354465 /* BarbellrowMainView.swift */; };
+		7AA878DA29093CED00354465 /* ShoulderpressMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878D929093CED00354465 /* ShoulderpressMainView.swift */; };
+		7AA878DC29093D0200354465 /* OverheadpressMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878DB29093D0200354465 /* OverheadpressMainView.swift */; };
+		7AA878DE29093D1900354465 /* LateralraiseMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878DD29093D1900354465 /* LateralraiseMainView.swift */; };
+		7AA878E029093D2B00354465 /* InclinepressMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878DF29093D2B00354465 /* InclinepressMainView.swift */; };
+		7AA878E229093D4100354465 /* DipsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878E129093D4100354465 /* DipsMainView.swift */; };
+		7AA878E429093D5500354465 /* FreePostureMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878E329093D5500354465 /* FreePostureMainView.swift */; };
+		7AA878E829093D7100354465 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878E729093D7100354465 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +62,49 @@
 		7AA878792909379700354465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AA8787B2909379900354465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AA8787E2909379900354465 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AA878852909383200354465 /* PoseEstimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseEstimator.swift; sourceTree = "<group>"; };
+		7AA878882909386800354465 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7AA8788B290938A300354465 /* SquatDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatDescriptionView.swift; sourceTree = "<group>"; };
+		7AA8788D290938D500354465 /* DeadliftDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadliftDescriptionView.swift; sourceTree = "<group>"; };
+		7AA8788F290938EE00354465 /* PullupDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullupDescriptionView.swift; sourceTree = "<group>"; };
+		7AA878912909390800354465 /* BarbellrowDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbellrowDescriptionView.swift; sourceTree = "<group>"; };
+		7AA878932909392500354465 /* ShoulderpressDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoulderpressDescriptionView.swift; sourceTree = "<group>"; };
+		7AA878952909394500354465 /* OverheadpressDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverheadpressDescriptionView.swift; sourceTree = "<group>"; };
+		7AA878972909395B00354465 /* LateralraiseDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LateralraiseDescriptionView.swift; sourceTree = "<group>"; };
+		7AA878992909397200354465 /* InclinepressDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InclinepressDescriptionView.swift; sourceTree = "<group>"; };
+		7AA8789B2909398A00354465 /* DipsDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DipsDescriptionView.swift; sourceTree = "<group>"; };
+		7AA8789D2909399C00354465 /* FreeDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeDescriptionView.swift; sourceTree = "<group>"; };
+		7AA8789F290939AE00354465 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		7AA878A2290939E800354465 /* SquatStickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatStickFigureView.swift; sourceTree = "<group>"; };
+		7AA878A429093A0200354465 /* DeadliftStickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadliftStickFigureView.swift; sourceTree = "<group>"; };
+		7AA878A629093A1700354465 /* PullupStickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullupStickFigureView.swift; sourceTree = "<group>"; };
+		7AA878A929093A4500354465 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		7AA878AB29093A6300354465 /* CameraViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewWrapper.swift; sourceTree = "<group>"; };
+		7AA878AD29093A7800354465 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		7AA878B029093A9500354465 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		7AA878B529093ADB00354465 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		7AA878B729093AF000354465 /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
+		7AA878BC29093B1700354465 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		7AA878BE29093B3100354465 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		7AA878C029093BBB00354465 /* BarbellrowStickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbellrowStickFigureView.swift; sourceTree = "<group>"; };
+		7AA878C229093BD400354465 /* ShoulderpressStickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoulderpressStickFigureView.swift; sourceTree = "<group>"; };
+		7AA878C429093BEA00354465 /* OverheadpressStickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverheadpressStickFigureView.swift; sourceTree = "<group>"; };
+		7AA878C629093C1000354465 /* LateralraiseStickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LateralraiseStickFigureView.swift; sourceTree = "<group>"; };
+		7AA878C829093C2900354465 /* InclinepressStickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InclinepressStickFigureView.swift; sourceTree = "<group>"; };
+		7AA878CA29093C3D00354465 /* DipsStickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DipsStickFigureView.swift; sourceTree = "<group>"; };
+		7AA878CC29093C5600354465 /* FreePostureStickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePostureStickFigureView.swift; sourceTree = "<group>"; };
+		7AA878CE29093C6B00354465 /* StickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickFigureView.swift; sourceTree = "<group>"; };
+		7AA878D129093CA200354465 /* SquatMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatMainView.swift; sourceTree = "<group>"; };
+		7AA878D329093CB400354465 /* DeadliftMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadliftMainView.swift; sourceTree = "<group>"; };
+		7AA878D529093CC700354465 /* PullupMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullupMainView.swift; sourceTree = "<group>"; };
+		7AA878D729093CDA00354465 /* BarbellrowMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbellrowMainView.swift; sourceTree = "<group>"; };
+		7AA878D929093CED00354465 /* ShoulderpressMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoulderpressMainView.swift; sourceTree = "<group>"; };
+		7AA878DB29093D0200354465 /* OverheadpressMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverheadpressMainView.swift; sourceTree = "<group>"; };
+		7AA878DD29093D1900354465 /* LateralraiseMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LateralraiseMainView.swift; sourceTree = "<group>"; };
+		7AA878DF29093D2B00354465 /* InclinepressMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InclinepressMainView.swift; sourceTree = "<group>"; };
+		7AA878E129093D4100354465 /* DipsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DipsMainView.swift; sourceTree = "<group>"; };
+		7AA878E329093D5500354465 /* FreePostureMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePostureMainView.swift; sourceTree = "<group>"; };
+		7AA878E729093D7100354465 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +137,15 @@
 		7AA878762909379700354465 /* AITrainer */ = {
 			isa = PBXGroup;
 			children = (
+				7AA8787B2909379900354465 /* Assets.xcassets */,
 				7AA878772909379700354465 /* AITrainerApp.swift */,
 				7AA878792909379700354465 /* ContentView.swift */,
-				7AA8787B2909379900354465 /* Assets.xcassets */,
+				7AA878852909383200354465 /* PoseEstimator.swift */,
+				7AA878872909385400354465 /* View */,
+				7AA878A829093A3100354465 /* UIKit */,
+				7AA878AF29093A8C00354465 /* Shape */,
+				7AA878B429093AC600354465 /* Button */,
+				7AA878BB29093B0A00354465 /* UI */,
 				7AA8787D2909379900354465 /* Preview Content */,
 			);
 			path = AITrainer;
@@ -65,6 +157,107 @@
 				7AA8787E2909379900354465 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AA878872909385400354465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AA878882909386800354465 /* HomeView.swift */,
+				7AA8788A2909388500354465 /* Description */,
+				7AA878A1290939BB00354465 /* StickFigure */,
+				7AA878D029093C7B00354465 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AA8788A2909388500354465 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				7AA8788B290938A300354465 /* SquatDescriptionView.swift */,
+				7AA8788D290938D500354465 /* DeadliftDescriptionView.swift */,
+				7AA8788F290938EE00354465 /* PullupDescriptionView.swift */,
+				7AA878912909390800354465 /* BarbellrowDescriptionView.swift */,
+				7AA878932909392500354465 /* ShoulderpressDescriptionView.swift */,
+				7AA878952909394500354465 /* OverheadpressDescriptionView.swift */,
+				7AA878972909395B00354465 /* LateralraiseDescriptionView.swift */,
+				7AA878992909397200354465 /* InclinepressDescriptionView.swift */,
+				7AA8789B2909398A00354465 /* DipsDescriptionView.swift */,
+				7AA8789D2909399C00354465 /* FreeDescriptionView.swift */,
+				7AA8789F290939AE00354465 /* DescriptionView.swift */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		7AA878A1290939BB00354465 /* StickFigure */ = {
+			isa = PBXGroup;
+			children = (
+				7AA878A2290939E800354465 /* SquatStickFigureView.swift */,
+				7AA878A429093A0200354465 /* DeadliftStickFigureView.swift */,
+				7AA878A629093A1700354465 /* PullupStickFigureView.swift */,
+				7AA878C029093BBB00354465 /* BarbellrowStickFigureView.swift */,
+				7AA878C229093BD400354465 /* ShoulderpressStickFigureView.swift */,
+				7AA878C429093BEA00354465 /* OverheadpressStickFigureView.swift */,
+				7AA878C629093C1000354465 /* LateralraiseStickFigureView.swift */,
+				7AA878C829093C2900354465 /* InclinepressStickFigureView.swift */,
+				7AA878CA29093C3D00354465 /* DipsStickFigureView.swift */,
+				7AA878CC29093C5600354465 /* FreePostureStickFigureView.swift */,
+				7AA878CE29093C6B00354465 /* StickFigureView.swift */,
+			);
+			path = StickFigure;
+			sourceTree = "<group>";
+		};
+		7AA878A829093A3100354465 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7AA878A929093A4500354465 /* CameraViewController.swift */,
+				7AA878AB29093A6300354465 /* CameraViewWrapper.swift */,
+				7AA878AD29093A7800354465 /* CameraView.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7AA878AF29093A8C00354465 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				7AA878B029093A9500354465 /* Shapes.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		7AA878B429093AC600354465 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				7AA878B529093ADB00354465 /* CircleButton.swift */,
+				7AA878B729093AF000354465 /* LargeButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		7AA878BB29093B0A00354465 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7AA878BC29093B1700354465 /* CircleBackground.swift */,
+				7AA878BE29093B3100354465 /* ScrollSection.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7AA878D029093C7B00354465 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7AA878D129093CA200354465 /* SquatMainView.swift */,
+				7AA878D329093CB400354465 /* DeadliftMainView.swift */,
+				7AA878D529093CC700354465 /* PullupMainView.swift */,
+				7AA878D729093CDA00354465 /* BarbellrowMainView.swift */,
+				7AA878D929093CED00354465 /* ShoulderpressMainView.swift */,
+				7AA878DB29093D0200354465 /* OverheadpressMainView.swift */,
+				7AA878DD29093D1900354465 /* LateralraiseMainView.swift */,
+				7AA878DF29093D2B00354465 /* InclinepressMainView.swift */,
+				7AA878E129093D4100354465 /* DipsMainView.swift */,
+				7AA878E329093D5500354465 /* FreePostureMainView.swift */,
+				7AA878E729093D7100354465 /* MainView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +332,49 @@
 			files = (
 				7AA8787A2909379700354465 /* ContentView.swift in Sources */,
 				7AA878782909379700354465 /* AITrainerApp.swift in Sources */,
+				7AA8788C290938A300354465 /* SquatDescriptionView.swift in Sources */,
+				7AA878942909392500354465 /* ShoulderpressDescriptionView.swift in Sources */,
+				7AA878862909383200354465 /* PoseEstimator.swift in Sources */,
+				7AA878962909394500354465 /* OverheadpressDescriptionView.swift in Sources */,
+				7AA878E029093D2B00354465 /* InclinepressMainView.swift in Sources */,
+				7AA8788E290938D500354465 /* DeadliftDescriptionView.swift in Sources */,
+				7AA878BD29093B1700354465 /* CircleBackground.swift in Sources */,
+				7AA878AC29093A6300354465 /* CameraViewWrapper.swift in Sources */,
+				7AA8789C2909398A00354465 /* DipsDescriptionView.swift in Sources */,
+				7AA878E229093D4100354465 /* DipsMainView.swift in Sources */,
+				7AA878982909395B00354465 /* LateralraiseDescriptionView.swift in Sources */,
+				7AA878CF29093C6B00354465 /* StickFigureView.swift in Sources */,
+				7AA878C929093C2900354465 /* InclinepressStickFigureView.swift in Sources */,
+				7AA878D829093CDA00354465 /* BarbellrowMainView.swift in Sources */,
+				7AA878A0290939AE00354465 /* DescriptionView.swift in Sources */,
+				7AA878B829093AF000354465 /* LargeButton.swift in Sources */,
+				7AA878922909390800354465 /* BarbellrowDescriptionView.swift in Sources */,
+				7AA878DC29093D0200354465 /* OverheadpressMainView.swift in Sources */,
+				7AA878D629093CC700354465 /* PullupMainView.swift in Sources */,
+				7AA87890290938EE00354465 /* PullupDescriptionView.swift in Sources */,
+				7AA878C329093BD400354465 /* ShoulderpressStickFigureView.swift in Sources */,
+				7AA8789A2909397200354465 /* InclinepressDescriptionView.swift in Sources */,
+				7AA878892909386800354465 /* HomeView.swift in Sources */,
+				7AA878AE29093A7800354465 /* CameraView.swift in Sources */,
+				7AA878D229093CA200354465 /* SquatMainView.swift in Sources */,
+				7AA878D429093CB400354465 /* DeadliftMainView.swift in Sources */,
+				7AA878E829093D7100354465 /* MainView.swift in Sources */,
+				7AA878E429093D5500354465 /* FreePostureMainView.swift in Sources */,
+				7AA878A3290939E800354465 /* SquatStickFigureView.swift in Sources */,
+				7AA878B129093A9500354465 /* Shapes.swift in Sources */,
+				7AA878C129093BBB00354465 /* BarbellrowStickFigureView.swift in Sources */,
+				7AA878BF29093B3100354465 /* ScrollSection.swift in Sources */,
+				7AA878CD29093C5600354465 /* FreePostureStickFigureView.swift in Sources */,
+				7AA878A529093A0200354465 /* DeadliftStickFigureView.swift in Sources */,
+				7AA878C529093BEA00354465 /* OverheadpressStickFigureView.swift in Sources */,
+				7AA878AA29093A4500354465 /* CameraViewController.swift in Sources */,
+				7AA878DA29093CED00354465 /* ShoulderpressMainView.swift in Sources */,
+				7AA878C729093C1000354465 /* LateralraiseStickFigureView.swift in Sources */,
+				7AA8789E2909399C00354465 /* FreeDescriptionView.swift in Sources */,
+				7AA878A729093A1700354465 /* PullupStickFigureView.swift in Sources */,
+				7AA878B629093ADB00354465 /* CircleButton.swift in Sources */,
+				7AA878DE29093D1900354465 /* LateralraiseMainView.swift in Sources */,
+				7AA878CB29093C3D00354465 /* DipsStickFigureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +506,15 @@
 				DEVELOPMENT_TEAM = N26MX7V92N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to the camera to detect the body pose and perform exercise properly.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +539,15 @@
 				DEVELOPMENT_TEAM = N26MX7V92N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to the camera to detect the body pose and perform exercise properly.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

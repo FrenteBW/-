@@ -11,7 +11,7 @@ import SwiftUI
 struct AITrainerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().navigationViewStyle(StackNavigationViewStyle())
         }
     }
 }
