@@ -13,7 +13,7 @@
 - Dark 모드가 지원됩니다. 
 
 
-[필수 권한]
+*필수 권한*
 
 - 사용자의 자세를 인식하고, 분석하기 위해선 카메라 접근을 허용해야 합니다. 수행할 동작을 선택 후 유의 사항을 숙지한 후, 카메라 접근을 허용해주세요. 
 
@@ -29,7 +29,7 @@
 - Dark mode is available.
 
 
-[Essential authority]
+*Essential authority*
 
 - Camera access must be allowed to recognize and analyze the user's posture. Please select the action to be performed, be familiar with the notices, and allow access to the camera.
 
