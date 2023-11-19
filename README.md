@@ -34,7 +34,7 @@
 - Camera access must be allowed to recognize and analyze the user's posture. Please select the action to be performed, be familiar with the notices, and allow access to the camera.
 
 # - 핵심 코드
-
+    //잘못된 자세를 탐지하는 부분에 관한 코드입니다. 
     import Foundation
     import AVFoundation
     import Vision
@@ -52,38 +52,10 @@
         @Published var AnkleisGoodPosture = true
         @Published var CoreisGoodPosture = true
         var subscriptions = Set<AnyCancellable>()
-    
-    override init() {
-        super.init()
-        $bodyParts
-            .dropFirst()
-            .sink(receiveValue: { bodyParts in self.DetectError(bodyParts: bodyParts)})
-            .store(in: &subscriptions)
-    }
-    
-    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
-        let humanBodyRequest = VNDetectHumanBodyPoseRequest(completionHandler: detectedBodyPose)
-        do {
-            try sequenceHandler.perform(
-              [humanBodyRequest],
-              on: sampleBuffer,
-                orientation: .right)
-        } catch {
-          print(error.localizedDescription)
-        }
-    }
-    
-    func detectedBodyPose(request: VNRequest, error: Error?) {
-        guard let bodyPoseResults = request.results as? [VNHumanBodyPoseObservation]
-          else { return }
-        guard let bodyParts = try? bodyPoseResults.first?.recognizedPoints(.all) else { return }
-        DispatchQueue.main.async {
-            self.bodyParts = bodyParts
-        }
-    }
-
-    func DetectError(bodyParts: [VNHumanBodyPoseObservation.JointName : VNRecognizedPoint]) {
         
+    //잘못된 부분 탐색을 위한 함수
+    func DetectError(bodyParts: [VNHumanBodyPoseObservation.JointName : VNRecognizedPoint]) {
+        //신체 부위 별 정의
         let rightWrist = bodyParts[.rightWrist]!.location
         let leftWrist = bodyParts[.leftWrist]!.location
         let rightElbow = bodyParts[.rightElbow]!.location
@@ -99,7 +71,7 @@
         let rightAnkle = bodyParts[.rightAnkle]!.location
         let leftAnkle = bodyParts[.leftAnkle]!.location
         
-        
+        //신체 부위 별 수평 움직임 판단을 위한 상수 선언
         let WristParallel = rightWrist.y / leftWrist.y
 
         let ElbowParallel = rightElbow.y / leftElbow.y
@@ -114,7 +86,7 @@
         
         let CoreVertical = Neck.x / Root.x
         
-        
+        //신체 부위 별 상대적인 움직임에 따라 잘못된 부분 탐지
         if WristParallel > 0.95 && WristParallel < 1.05 {
             self.WristisGoodPosture = true
         } else {
