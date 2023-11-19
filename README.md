@@ -35,23 +35,23 @@
 
 # - 핵심 코드
 
-import Foundation
-import AVFoundation
-import Vision
-import Combine
+    import Foundation
+    import AVFoundation
+    import Vision
+    import Combine
 
-class PoseEstimator: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate, ObservableObject {
-    let sequenceHandler = VNSequenceRequestHandler()
-    @Published var bodyParts = [VNHumanBodyPoseObservation.JointName : VNRecognizedPoint]()
-    @Published var isGoodPosture = true
-    @Published var WristisGoodPosture = true
-    @Published var ElbowisGoodPosture = true
-    @Published var ShoulderisGoodPosture = true
-    @Published var HipisGoodPosture = true
-    @Published var KneeisGoodPosture = true
-    @Published var AnkleisGoodPosture = true
-    @Published var CoreisGoodPosture = true
-    var subscriptions = Set<AnyCancellable>()
+    class PoseEstimator: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate, ObservableObject {
+        let sequenceHandler = VNSequenceRequestHandler()
+        @Published var bodyParts = [VNHumanBodyPoseObservation.JointName : VNRecognizedPoint]()
+        @Published var isGoodPosture = true
+        @Published var WristisGoodPosture = true
+        @Published var ElbowisGoodPosture = true
+        @Published var ShoulderisGoodPosture = true
+        @Published var HipisGoodPosture = true
+        @Published var KneeisGoodPosture = true
+        @Published var AnkleisGoodPosture = true
+        @Published var CoreisGoodPosture = true
+        var subscriptions = Set<AnyCancellable>()
     
     override init() {
         super.init()
