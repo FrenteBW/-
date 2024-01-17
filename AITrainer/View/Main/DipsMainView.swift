@@ -33,10 +33,3 @@ struct DipsMainView: View {
         }
     }
 }
-
-struct DipsMainView_Previews: PreviewProvider {
-    static var previews: some View {
-        DipsMainView()
-    }
-}
-

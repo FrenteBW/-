@@ -16,9 +16,3 @@ struct CircleBackground: View {
             .foregroundColor(color)
     }
 }
-
-struct CircleBackground_Previews: PreviewProvider {
-    static var previews: some View {
-        CircleBackground()
-    }
-}

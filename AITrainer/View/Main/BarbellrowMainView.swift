@@ -33,10 +33,3 @@ struct BarbellrowMainView: View {
         }
     }
 }
-
-struct BarbellrowMainView_Previews: PreviewProvider {
-    static var previews: some View {
-        BarbellrowMainView()
-    }
-}
-

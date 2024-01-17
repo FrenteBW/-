@@ -33,11 +33,3 @@ struct SquatMainView: View {
         }
     }
 }
-
-struct SquatMainView_Previews: PreviewProvider {
-    static var previews: some View {
-        SquatMainView()
-    }
-}
-
-

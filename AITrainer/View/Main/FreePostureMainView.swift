@@ -33,9 +33,3 @@ struct FreePostureMainView: View {
         }
     }
 }
-
-struct FreePostureMainView_Previews: PreviewProvider {
-    static var previews: some View {
-        FreePostureMainView()
-    }
-}

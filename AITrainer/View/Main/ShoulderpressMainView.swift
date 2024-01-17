@@ -33,8 +33,3 @@ struct ShoulderpressMainView: View {
         }
     }
 }
-struct ShoulderpressMainView_Previews: PreviewProvider {
-    static var previews: some View {
-        ShoulderpressMainView()
-    }
-}

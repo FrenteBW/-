@@ -33,9 +33,3 @@ struct PullupMainView: View {
         }
     }
 }
-struct PullupMainView_Previews: PreviewProvider {
-    static var previews: some View {
-        PullupMainView()
-    }
-}
-

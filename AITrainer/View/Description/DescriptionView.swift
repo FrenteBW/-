@@ -32,7 +32,7 @@ struct DescriptionView: View {
                         .padding(EdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20))
 
                     ScrollView(.vertical, showsIndicators: false){
-                        Text(" 1. The subject’s height should ideally be at least a third of the overall image height.\n\n\n 2. A large portion of the subject’s key body regions and points should be present in the image.\n\n\n 3. A subject wearing flowing or robe-like clothing reduces the detection accuracy.\n\n\n 4. Attempting to detect body poses in dense crowd scenes is likely to produce inaccurate results.\n\n\n 5. To perform more accurate exercise, exercise with the help of an expert.\n\n\n 6. Make sure that the line remains horizontal or vertical. \n\n\n")
+                        Text(Descriptions.Description)
                             .font(.headline)
                             .foregroundColor(.white)
                             .padding(.top, 50)
@@ -57,8 +57,3 @@ struct DescriptionView: View {
         .navigationBarBackButtonHidden(true)
     }
 }
-    struct DescriptionView_Previews: PreviewProvider {
-        static var previews: some View {
-            DescriptionView()
-        }
-    }

@@ -33,9 +33,3 @@ struct InclinepressMainView: View {
         }
     }
 }
-
-struct InclinepressMainView_Previews: PreviewProvider {
-    static var previews: some View {
-        InclinepressMainView()
-    }
-}

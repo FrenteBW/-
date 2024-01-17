@@ -33,9 +33,3 @@ struct OverheadpressMainView: View {
         }
     }
 }
-
-struct OverheadpressMainView_Previews: PreviewProvider {
-    static var previews: some View {
-        OverheadpressMainView()
-    }
-}

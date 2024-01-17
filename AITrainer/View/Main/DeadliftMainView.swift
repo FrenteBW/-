@@ -33,8 +33,3 @@ struct DeadliftMainView: View {
         }
     }
 }
-struct DeadliftMainView_Previews: PreviewProvider {
-    static var previews: some View {
-        DeadliftMainView()
-    }
-}

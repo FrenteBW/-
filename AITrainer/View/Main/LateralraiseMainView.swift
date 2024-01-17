@@ -33,10 +33,3 @@ struct LateralraiseMainView: View {
         }
     }
 }
-
-struct LateralraiseMainView_Previews: PreviewProvider {
-    static var previews: some View {
-        LateralraiseMainView()
-    }
-}
-

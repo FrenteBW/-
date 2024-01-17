@@ -54,6 +54,7 @@
 		7AA878E229093D4100354465 /* DipsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878E129093D4100354465 /* DipsMainView.swift */; };
 		7AA878E429093D5500354465 /* FreePostureMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878E329093D5500354465 /* FreePostureMainView.swift */; };
 		7AA878E829093D7100354465 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878E729093D7100354465 /* MainView.swift */; };
+		7AEC234A2B577D3C00A5627D /* Descriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC23492B577D3C00A5627D /* Descriptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +106,7 @@
 		7AA878E129093D4100354465 /* DipsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DipsMainView.swift; sourceTree = "<group>"; };
 		7AA878E329093D5500354465 /* FreePostureMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePostureMainView.swift; sourceTree = "<group>"; };
 		7AA878E729093D7100354465 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7AEC23492B577D3C00A5627D /* Descriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Descriptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				7AA878AF29093A8C00354465 /* Shape */,
 				7AA878B429093AC600354465 /* Button */,
 				7AA878BB29093B0A00354465 /* UI */,
+				7AEC23482B577D1F00A5627D /* Description */,
 				7AA8787D2909379900354465 /* Preview Content */,
 			);
 			path = AITrainer;
@@ -260,6 +263,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		7AEC23482B577D1F00A5627D /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				7AEC23492B577D3C00A5627D /* Descriptions.swift */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -332,6 +343,7 @@
 			files = (
 				7AA8787A2909379700354465 /* ContentView.swift in Sources */,
 				7AA878782909379700354465 /* AITrainerApp.swift in Sources */,
+				7AEC234A2B577D3C00A5627D /* Descriptions.swift in Sources */,
 				7AA8788C290938A300354465 /* SquatDescriptionView.swift in Sources */,
 				7AA878942909392500354465 /* ShoulderpressDescriptionView.swift in Sources */,
 				7AA878862909383200354465 /* PoseEstimator.swift in Sources */,
