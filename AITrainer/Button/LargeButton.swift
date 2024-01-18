@@ -25,9 +25,3 @@ struct LargeButton: View {
             }
     }
 }
-
-struct LargeButton_Previews: PreviewProvider {
-    static var previews: some View {
-        LargeButton()
-    }
-}
