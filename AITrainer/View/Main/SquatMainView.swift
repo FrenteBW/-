@@ -9,7 +9,6 @@ import SwiftUI
 
 struct SquatMainView: View {
     @StateObject var poseEstimator = PoseEstimator()
-    @State var shouldHide = false
     @Environment(\.dismiss) var dismiss
     
     var body: some View {

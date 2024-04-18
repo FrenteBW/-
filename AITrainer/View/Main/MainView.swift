@@ -9,7 +9,6 @@ import SwiftUI
 
 struct MainView: View {
     @StateObject var poseEstimator = PoseEstimator()
-    @State var shouldHide = false
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
@@ -18,13 +17,6 @@ struct MainView: View {
                     GeometryReader { geo in
                         CameraViewWrapper(poseEstimator: poseEstimator)
                         StickFigureView(poseEstimator: poseEstimator, size: geo.size)
-                        /*
-                        Button("주의사항 ~ + Start👊") { self.shouldHide = true }
-                            .lineLimit(nil)
-                            .background(Color.gray.opacity(0.5))
-                            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-                            .opacity(shouldHide ? 0 : 1)
-                         */
                     }
                 }.frame(width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height
                         * 0.8, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
