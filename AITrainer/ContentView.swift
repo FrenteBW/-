@@ -14,7 +14,6 @@ struct ContentView: View {
     var body: some View {
 
         ZStack {
-                   
             NavigationView {
                 HomeView()
             }
@@ -41,7 +40,6 @@ extension ContentView {
     var launchScreenView: some View {
         
         ZStack(alignment: .center) {
-            
             LinearGradient(colors: [Color("backgroundColor"), Color("backgroundColor2")], startPoint: .top, endPoint: .bottom)
             .edgesIgnoringSafeArea(.all)
             

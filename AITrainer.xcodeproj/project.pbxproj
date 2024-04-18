@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1A80452B58F374004DAE84 /* ExerciseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A80442B58F374004DAE84 /* ExerciseItem.swift */; };
 		7AA878782909379700354465 /* AITrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878772909379700354465 /* AITrainerApp.swift */; };
 		7AA8787A2909379700354465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA878792909379700354465 /* ContentView.swift */; };
 		7AA8787C2909379900354465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA8787B2909379900354465 /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A1A80442B58F374004DAE84 /* ExerciseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseItem.swift; sourceTree = "<group>"; };
 		7AA878742909379700354465 /* AITrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AITrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA878772909379700354465 /* AITrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITrainerApp.swift; sourceTree = "<group>"; };
 		7AA878792909379700354465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 			children = (
 				7AA878BC29093B1700354465 /* CircleBackground.swift */,
 				7AA878BE29093B3100354465 /* ScrollSection.swift */,
+				7A1A80442B58F374004DAE84 /* ExerciseItem.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				7AA8787A2909379700354465 /* ContentView.swift in Sources */,
 				7AA878782909379700354465 /* AITrainerApp.swift in Sources */,
 				7AEC234A2B577D3C00A5627D /* Descriptions.swift in Sources */,
+				7A1A80452B58F374004DAE84 /* ExerciseItem.swift in Sources */,
 				7AA8788C290938A300354465 /* SquatDescriptionView.swift in Sources */,
 				7AA878942909392500354465 /* ShoulderpressDescriptionView.swift in Sources */,
 				7AA878862909383200354465 /* PoseEstimator.swift in Sources */,
@@ -531,7 +535,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.AITrainer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -564,7 +568,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.AITrainer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

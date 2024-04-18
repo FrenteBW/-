@@ -10,11 +10,12 @@ import SwiftUI
 struct HomeView: View {
     
     @State var animate = false
-    @State var backimages: [String] = ["justpullup","justbarbellrow"]
-    @State var legimages: [String] = ["justsquat","justdeadlift"]
-    @State var shoulderimages: [String] = ["justshoulderpress","justoverheadpress","justlateralraise"]
-    @State var chestimages: [String] = ["justinclinepress","justdips"]
-    @State var freeimages: [String] = ["justfree"]
+    var backimages: [String] = ["justpullup","justbarbellrow"]
+    var legimages: [String] = ["justsquat","justdeadlift"]
+    var shoulderimages: [String] = ["justshoulderpress","justoverheadpress","justlateralraise"]
+    var chestimages: [String] = ["justinclinepress","justdips"]
+    var freeimages: [String] = ["justfree"]
+
     
     var body: some View {
     

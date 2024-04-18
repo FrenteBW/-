@@ -10,9 +10,7 @@ import SwiftUI
 struct ShoulderpressDescriptionView: View {
     
     @Environment(\.dismiss) var dismiss
-    
-    @State var gradient = [Color("backgroundColor2").opacity(0), Color("backgroundColor2"), Color("backgroundColor2"), Color("backgroundColor2")]
-    
+
     var body: some View {
         NavigationView {
             ZStack{
